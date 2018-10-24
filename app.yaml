@@ -1,0 +1,20 @@
+apiVersion: 0.3.0
+environments:
+  gke:
+    destination:
+      namespace: kubeflow
+      server: https://35.233.188.86
+    k8sVersion: v1.10.7
+    path: gke
+kind: ksonnet.io/app
+libraries:
+  kubeflow/core:
+    name: core
+    registry: kubeflow
+    version: 6f734765483e4055b37a75629fecf6dd31d94117
+name: ks-app
+registries:
+  kubeflow:
+    protocol: github
+    uri: https://github.com/kubeflow/kubeflow/tree/master/kubeflow
+version: 0.0.1
