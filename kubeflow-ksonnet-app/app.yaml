@@ -8,10 +8,18 @@ environments:
     path: gke
 kind: ksonnet.io/app
 libraries:
+  kubeflow/argo:
+    name: argo
+    registry: kubeflow
+    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
   kubeflow/core:
     name: core
     registry: kubeflow
     version: 6f734765483e4055b37a75629fecf6dd31d94117
+  kubeflow/kubebench:
+    name: kubebench
+    registry: kubeflow
+    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
 name: ks-app
 registries:
   kubeflow:
