@@ -3,50 +3,62 @@ kind: ksonnet.io/registry
 libraries:
   application:
     path: application
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   argo:
     path: argo
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   automation:
     path: automation
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   chainer-job:
     path: chainer-job
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   core:
     path: core
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
+  jupyter:
+    path: jupyter
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   katib:
     path: katib
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   kubebench:
     path: kubebench
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
+  metacontroller:
+    path: metacontroller
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   mpi-job:
     path: mpi-job
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   mxnet-job:
     path: mxnet-job
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   new-package-stub:
     path: new-package-stub
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   nvidia-inference-server:
     path: nvidia-inference-server
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   openmpi:
     path: openmpi
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   pachyderm:
     path: pachyderm
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
+  profiles:
+    path: profiles
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   pytorch-job:
     path: pytorch-job
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   seldon:
     path: seldon
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
   tf-serving:
     path: tf-serving
-    version: 23ba5331ab94335df490cd047b5a7f9b5d740715
-version: 23ba5331ab94335df490cd047b5a7f9b5d740715
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
+  tf-training:
+    path: tf-training
+    version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
+version: 36dabac38ba2e0c8f62b97337e8c139c2eeda0d1
